@@ -20,15 +20,29 @@ We use javascript because its ecosystem lets us build almost any software; this 
 
 Not being a type-safe language, Javascript increases the chance of runtime errors and makes it extremely hard to read and maintain the project as it or the team working on it gets bigger. We prefer Typescript over Javascript because it has solved these issues, ensuring that we deliver safer software.
 
+#### usecases
+
+### CSS/SCSS
+#### usecases
+
+## Libraries
+### React
+#### usecases
+
 ## Frameworks
 
 ### Next.js
+#### usecases
+
 
 ### Docusaurus
+#### usecases
 
 ## CI/CD
 ### GitHub Actions
+#### usecases
 
 ## Cloud Platforms
 
 ### Vercel
+#### usecases
