@@ -90,12 +90,12 @@ See the [contribution rules](/contribution-rules.md) document.
 ### Create a New Feature
 1. Create a local branch:
 ```bash
-$ git checkout -b feat-foo main
+$ git checkout -b topic-foo main
 ```
 
 2. Push your changes to a remote branch with the same name:
 ```bash
-$ git push origin feat-foo 
+$ git push origin topic-foo 
 ```
 
 3. Create a merge request from your new branch to the `main` branch.

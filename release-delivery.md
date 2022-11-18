@@ -25,6 +25,24 @@ The trunk is your development branch, the only long-lived branch in your remote 
 ### Topic Branches
 Contributors will work on short-lived branches and push their changes to the remote server on a branch with the same name. They should then create a request for merging the branch into the trunk. The maintainer(s) may accept the request after reviewing the changes and when all the tests are passed to ensure nothing will break on the trunk branch by merging.
 
+```mermaid
+%%{init: { 'theme': 'base', 'gitGraph': {'showCommitLabel':false,'mainBranchOrder': 0}} }%%
+      gitGraph
+      commit tag: "v1.0.0"
+      branch topic-foo
+      checkout topic-foo
+      commit
+      commit
+      checkout main
+      merge topic-foo
+      commit tag: "v1.1.0"
+      branch topic-fix
+      commit
+      checkout main
+      merge topic-fix
+      commit tag: "v1.1.1"
+```
+
 ## Contribution Rules
 You should strictly follow the [Contribution Rules document](/contribution-rules.md). 
 
@@ -33,12 +51,12 @@ You should strictly follow the [Contribution Rules document](/contribution-rules
 ### Create a New Feature
 1. Create a local branch:
 ```bash
-$ git checkout -b feat-foo main
+$ git checkout -b topic-foo main
 ```
 
 2. Push your changes to a remote branch with the same name:
 ```bash
-$ git push origin feat-foo
+$ git push origin topic-foo
 ```
 
 3. Create a merge request from your new branch to the `main` branch.
