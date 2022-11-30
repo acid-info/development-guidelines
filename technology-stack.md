@@ -28,8 +28,7 @@ Choosing the right tech stack depends on multiple factors, such as the software 
 ## Languages
 
 ### Typescript
-We use javascript because its ecosystem lets us build almost any software; this is important for the reasons we explained in the [introduction](#introduction). 
-
+Most of the software we make is web-based or web-related, so we use Javascript as it's currently the dominant language in the web ecosystem. Besides, its ecosystem enables us to build almost any other type of software.
 Not being a type-safe language, Javascript increases the chance of runtime errors and makes it extremely hard to read and maintain the project as it or the team working on it gets bigger. We prefer Typescript over Javascript because it has solved these issues, ensuring that we deliver safer software.
 
 #### Use Cases
