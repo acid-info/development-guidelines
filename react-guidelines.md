@@ -122,7 +122,7 @@ Utilities are mainly small functions and are decoupled from and agnostic to the 
 Below is an example of the `utils` directory:
 
 ```html
-├── types 
+├── utils 
 │   ├── fileInput.utils.ts
 │   ├── useBlockRouteChange.util.ts
 │   ├── useDisableScrollbar.util.ts
