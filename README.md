@@ -6,3 +6,6 @@
 - [Technology Stack](/technology-stack.md)
 - [DevOps Guidelines](/devops.md)
 - [Computational Design & Creative Coding](/computational-design-and-creative-coding.md)
+
+Technology-specific guidelines
+- [React Guidelines](/react-guidelines.md)
