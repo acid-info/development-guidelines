@@ -7,6 +7,8 @@
 - [Branching](#branching)
 - [Merge Requests](#merge-requests)
 - [Code Review](#code-review)
+- [Repository Naming](#repository-naming)
+- [Monorepos](#monorepos)
 
 ## Introduction
 
@@ -99,3 +101,21 @@ It's the maintainer's responsibility to ensure all changes in a merge request ar
 
 **Ask to add missing unit tests:** 
 It's the maintainer's responsibility to ensure no necessary important unit test is missing. 
+
+## Repository Naming
+Use a hyphen(-) to replace whitespace, and name repositories using one of the following patterns:
+- `<project/product-name>`
+  - Examples:
+    - wiki-framework
+    - project-report-website
+    
+- `<project/product-name-abbr>-<software-name>`
+  - Examples:
+    - df-docusaurus-plugins
+    - bdp-printing-service
+    - wf-core-engine
+    - prw-api
+    - prw-frontend
+
+## Monorepos
+TBD.
