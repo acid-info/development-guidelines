@@ -9,3 +9,4 @@
 
 Technology-specific guidelines
 - [React Guidelines](/react-guidelines.md)
+- [Next.js Guidelines](/nextjs-guidelines.md)
