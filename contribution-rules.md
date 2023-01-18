@@ -103,8 +103,8 @@ It's the maintainer's responsibility to ensure all changes in a merge request ar
 It's the maintainer's responsibility to ensure no necessary important unit test is missing. 
 
 ## Repository Naming
-Use a hyphen(-) to replace whitespace, and name repositories using one of the following patterns:
-- `<project/product-name>`
+The reposotory's name should always be snake-cased (a hyphen(-) to replace whitespace and all letters lowercased), and name the repositories using one of the following patterns:
+- `<project/product-name)>`
   - Examples:
     - wiki-framework
     - project-report-website
