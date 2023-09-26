@@ -69,10 +69,19 @@ We treat a hotfix the same as other topic branches; see the instruction for [cre
 ### Undo Mistakes
 TODO.
 
+## Release Types
+
+Releases should be of the following types:
+
+**Alpha:** Intended for internal use. These are early-stage versions that might have incomplete features or known bugs. They serve as the initial testing phase for new functionalities.
+
+**Beta:** Think of these as our MVP (Minimum Viable Product) versions. They are more polished than alpha versions, better tested, but might still have a few edges to smooth out. These are pre-release versions made available to a limited group of users for feedback and real-world testing.
+
+**Full Releases (v1, v2, ...):** The polished and full-featured versions, all set and stable.
+
+We can also group them by pre-release (alpha, beta) and full release (v1, v2, ...).
+
 ### Manage Releases 
-There are two types of releases:
-- pre-release
-- release 
 
 You must automate the process of creating releases and publishing them to repository servers. But triggering the release action should be done manually by the project's maintainer(s), whether by running a script locally or using CI services like GitHub Actions. 
 
